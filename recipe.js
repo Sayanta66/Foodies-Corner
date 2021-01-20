@@ -54,6 +54,7 @@ function displayData(response) {
         }</p>
 
         <p class="recipe-data">Health labels: ${result.recipe.healthLabels}</p>
+        <p class="recipe-data">Estimated time: ${result.recipe.totalTime>0?result.recipe.totalTime+" minutes":"Data Not Available"}</p>
 
       </div>`;
 
